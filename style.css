@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Cabin&family=Tangerine:wght@400;700&display=swap');
+
+body {
+    margin: 100px;
+    box-sizing: border-box;
+    background-color: #0F2D40;
+}
+
+.title {
+
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+    text-align: center;
+    margin: 50px 0;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #79F2F2;
+}
+
+
+.slogan {
+    font-size: 26px;
+    margin: 0;
+    color: #6AB9D9;
+    /* color: #666; */
+}
+
+h2 {
+    color: #79F2F2;
+
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+ol {
+    color: #79F2F2;
+
+    font-size: 16px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.tit {
+    color: #79F2F2;
+}
+
+.card {
+
+    font-size: 1.3rem;
+    font-family: 'Arizonia', cursive;
+    font-family: 'Cabin', sans-serif;
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+    margin-right: 20px;
+    width: 230px;
+    height: 400px;
+    border: 1px solid #6AB9D9;
+    box-shadow: 2px 2px 2px #000102;
+    margin: 10px;
+    padding: 10px;
+    background-color: #2976A6;
+    line-height: 1.5rem;
+    border-radius: 1rem;
+}
+
+/* .card.selected table {
+    background-color: red;
+} */
+
+table {
+    position: relative;
+}
+
+table td {
+    padding: 5px;
+}
+
+.btn-yes{
+    /* position: absolute;
+    top: 58rem;
+    left: 30.5rem; */
+    border: none;
+    text-align: center;
+    width: 100px;
+    margin: 2px;
+    background-color: #79F2F2;
+    color: #0F2D40;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.btn-no {
+    /* position: absolute;
+    top: 58rem;
+    right: 30.5rem; */
+    border: none;
+    text-align: center;
+    width: 100px;
+    margin: 2px;
+    background-color: #79F2F2;
+    color: #0F2D40;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+.button-container {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .pressed {
+    background-color: red;
+    color: white;
+} */
+
+#btn-result {
+    margin: 10px auto;
+    background-color: #79f2f2;
+}
+
+#refresh-btn {
+
+    margin: 10px auto;
+    background-color: antiquewhite;
+
+}
+
+.buttons button {
+    display: flex;
+    justify-content: center;
+    border: none;
+    text-align: center;
+
+    color: #0f2d40;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+#result {
+    margin: 20px auto;
+    font-size: 24px;
+    color: #79F2F2;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
