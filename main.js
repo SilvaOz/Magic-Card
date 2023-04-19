@@ -5,6 +5,7 @@ const btnResult = document.querySelector('#btn-result');
 const refreshBtn = document.getElementById('refresh-btn');
 const result = document.querySelector('#result');
 
+
 let sum = 0;
 
 for (let i = 1; i < cards.length; i++) {
@@ -18,6 +19,8 @@ function addNumber(number) {
     const nextCard = currentCard.nextElementSibling;
     if (nextCard) {
         nextCard.style.display = 'block';
+    } else {
+        checkCards();
     }
 }
 
@@ -37,16 +40,12 @@ btnNo.forEach(button => {
         const nextCard = currentCard.nextElementSibling;
         if (nextCard) {
             nextCard.style.display = 'block';
-        }
-        const otherBtn = this.parentElement.querySelector(this.classList.contains('btn-yes') ? '.btn-no' : '.btn-yes');
-        if (otherBtn) {
-            if (otherBtn.classList.contains('pressed')) {
-                alert('You can only select one option in each table❗️');
-            }
-            otherBtn.classList.remove('pressed');
+        } else {
+            checkCards();
         }
     });
 });
+
 
 // Función para mostrar el resultado
 function showResult() {
@@ -56,15 +55,11 @@ function showResult() {
 // Agregar evento click al botón "Ver resultado"
 btnResult.addEventListener('click', showResult);
 
-// Función para desactivar la opción no seleccionada
-function deactivateOtherOption(btn) {
-    const otherBtn = btn.parentElement.querySelector(btn.classList.contains('btn-yes') ? '.btn-no' : '.btn-yes');
-    if (otherBtn) {
-        if (otherBtn.classList.contains('pressed')) {
-            alert('You can only select one option in each table❗️');
-        }
-        otherBtn.classList.remove('pressed');
-        otherBtn.closest('.card').style.display = 'none';
+// Función para verificar si todas las cartas están ocultas
+function checkCards() {
+    const visibleCards = document.querySelectorAll('.card[style="display: block;"]');
+    if (visibleCards.length === 0) {
+        btnResult.style.display = 'block';
     }
 }
 
