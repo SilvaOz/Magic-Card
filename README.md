@@ -22,7 +22,7 @@ Magic Mind Reader  is a fun game where you are presented with 10 cards and you h
 
 ## Installation
 
-To install Magic Mind Reader, simply visit the [GitHub Pages site](https://silvaoz.github.io/Magic-Card/) for the project.
+To install Magic Mind Reader, simply visit the [Pages site](https://silvaoz.github.io/Magic-Card/) for the project.
 
 ## Usage
 
