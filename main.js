@@ -24,6 +24,9 @@ function addNumber(number) {
     }
 }
 
+window.onload = function() {
+    cards[0].style.display = 'block';
+    }
 // Agregar evento click a los botones "Sí"
 btnYes.forEach(button => {
     button.addEventListener('click', function () {
@@ -66,3 +69,4 @@ function checkCards() {
 refreshBtn.onclick = function () {
     location.reload();
 };
+

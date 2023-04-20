@@ -5,17 +5,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+
+
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arizonia&family=Cabin&family=Tangerine:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Fondamento:ital@0;1&family=Henny+Penny&family=Qwigley&family=Righteous&family=UnifrakturMaguntia&family=Yeseva+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css?v=12345">
+    <script src="scripts.js?v=12345"></script>
+    <script defer src="./main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
 
 
     <title>Card Mind Reader</title>
+    <meta name="description" content="We read your mind, every time.">
 </head>
 
 <body>
+
     <div class="title">
         <h1>Card Mind Reader</h1>
         <p class="slogan">"We read your mind, every time."</p>
+
     </div>
     <!-- <h2>Instructions:</h2>
     <ol>
@@ -24,14 +42,14 @@
         <li>After all 10 cards have been shown, press "guess" to reveal the number you chose.</li>
     </ol> -->
     <div class="card-container">
-        <div class="card table-group" data-number="1">
-            <p class= "tit" >Is your number here?</p>
+        <div class="card" data-number="1" style="display:none;">
+            <p class="tit">Is your number here?</p>
             <table>
                 <tr>
-                    <td>1</td>
-                    <td>4</td>
-                    <td>6</td>
-                    <td>9</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>06</td>
+                    <td>09</td>
                     <td>12</td>
                     <td>14</td>
                 </tr>
@@ -77,20 +95,18 @@
                 </tr>
                 <tr>
                     <td>95</td>
-                    <td>98</td>
                 </tr>
             </table>
             <div class="button-container">
                 <button class="btn-yes">Yes</button> <button class="btn-no">No</button>
             </div>
         </div>
-
-        <div class="card" data-number="2">
-            <p class= "tit" >Is your number here?</p>
+        <div class="card" data-number="2" style="display:none;">
+            <p class="tit">Is your number here?</p>
             <table>
                 <tr>
-                    <td>2</td>
-                    <td>7</td>
+                    <td>02</td>
+                    <td>07</td>
                     <td>10</td>
                     <td>15</td>
                     <td>20</td>
@@ -125,12 +141,12 @@
                 <button class="btn-yes">Yes</button> <button class="btn-no">No</button>
             </div>
         </div>
-        <div class="card" data-number="3">
-            <p class= "tit" >Is your number here?</p>
+        <div class="card" data-number="3" style="display:none;">
+            <p class="tit">Is your number here?</p>
             <table>
                 <tr>
-                    <td>3</td>
-                    <td>4</td>
+                    <td>03</td>
+                    <td>04</td>
                     <td>11</td>
                     <td>12</td>
                     <td>16</td>
@@ -145,17 +161,14 @@
                     <td>38</td>
                 </tr>
                 <tr>
-
                     <td>45</td>
                     <td>46</td>
                     <td>50</td>
                     <td>51</td>
                     <td>58</td>
                     <td>59</td>
-
                 </tr>
                 <tr>
-
                     <td>66</td>
                     <td>67</td>
                     <td>71</td>
@@ -164,7 +177,6 @@
                     <td>80</td>
                 </tr>
                 <tr>
-
                     <td>87</td>
                     <td>88</td>
                     <td>92</td>
@@ -176,19 +188,18 @@
                 <button class="btn-yes">Yes</button> <button class="btn-no">No</button>
             </div>
         </div>
-        <div class="card" data-number="5">
-            <p class= "tit" >Is your number here?</p>
+        <div class="card" data-number="5" style="display:none;">
+            <p class="tit">Is your number here?</p>
             <table>
                 <tr>
-                    <td>5</td>
-                    <td>6</td>
-                    <td>7</td>
+                    <td>05</td>
+                    <td>06</td>
+                    <td>07</td>
                     <td>18</td>
                     <td>19</td>
                     <td>20</td>
                 </tr>
                 <tr>
-
                     <td>26</td>
                     <td>27</td>
                     <td>28</td>
@@ -197,7 +208,6 @@
                     <td>41</td>
                 </tr>
                 <tr>
-
                     <td>52</td>
                     <td>53</td>
                     <td>54</td>
@@ -206,7 +216,6 @@
                     <td>62</td>
                 </tr>
                 <tr>
-
                     <td>73</td>
                     <td>74</td>
                     <td>75</td>
@@ -215,7 +224,6 @@
                     <td>83</td>
                 </tr>
                 <tr>
-
                     <td>94</td>
                     <td>95</td>
                     <td>96</td>
@@ -223,25 +231,23 @@
                     <td></td>
                     <td></td>
                 </tr>
-
             </table>
             <div class="button-container">
                 <button class="btn-yes">Yes</button> <button class="btn-no">No</button>
             </div>
         </div>
-        <div class="card" data-number="8">
-            <p class= "tit" >Is your number here?</p>
+        <div class="card" data-number="8" style="display:none;">
+            <p class="tit">Is your number here?</p>
             <table>
                 <tr>
-                    <td>8</td>
-                    <td>9</td>
+                    <td>08</td>
+                    <td>09</td>
                     <td>10</td>
                     <td>11</td>
                     <td>12</td>
                     <td>29</td>
                 </tr>
                 <tr>
-
                     <td>30</td>
                     <td>31</td>
                     <td>32</td>
@@ -250,7 +256,6 @@
                     <td>44</td>
                 </tr>
                 <tr>
-
                     <td>45</td>
                     <td>46</td>
                     <td>63</td>
@@ -259,7 +264,6 @@
                     <td>66</td>
                 </tr>
                 <tr>
-
                     <td>67</td>
                     <td>84</td>
                     <td>85</td>
@@ -268,7 +272,6 @@
                     <td>88</td>
                 </tr>
                 <tr>
-
                     <td>97</td>
                     <td>98</td>
                     <td>99</td>
@@ -277,15 +280,14 @@
                     <td></td>
                 </tr>
                 <tr>
-
                 </tr>
             </table>
             <div class="button-container">
                 <button class="btn-yes">Yes</button> <button class="btn-no">No</button>
             </div>
         </div>
-        <div class="card" data-number="13">
-            <p class= "tit" >Is your number here?</p>
+        <div class="card" data-number="13" style="display:none;">
+            <p class="tit">Is your number here?</p>
             <table>
                 <tr>
                     <td>13</td>
@@ -296,7 +298,6 @@
                     <td>18</td>
                 </tr>
                 <tr>
-
                     <td>19</td>
                     <td>20</td>
                     <td>47</td>
@@ -305,7 +306,6 @@
                     <td>50</td>
                 </tr>
                 <tr>
-
                     <td>51</td>
                     <td>52</td>
                     <td>53</td>
@@ -314,7 +314,6 @@
                     <td>69</td>
                 </tr>
                 <tr>
-
                     <td>70</td>
                     <td>71</td>
                     <td>72</td>
@@ -327,8 +326,8 @@
                 <button class="btn-yes">Yes</button> <button class="btn-no">No</button>
             </div>
         </div>
-        <div class="card" data-number="21">
-            <p class= "tit" >Is your number here?</p>
+        <div class="card" data-number="21" style="display:none;">
+            <p class="tit">Is your number here?</p>
             <table>
                 <tr>
                     <td>21</td>
@@ -339,7 +338,6 @@
                     <td>26</td>
                 </tr>
                 <tr>
-
                     <td>27</td>
                     <td>28</td>
                     <td>29</td>
@@ -348,7 +346,6 @@
                     <td>32</td>
                 </tr>
                 <tr>
-
                     <td>33</td>
                     <td>76</td>
                     <td>77</td>
@@ -357,7 +354,6 @@
                     <td>80</td>
                 </tr>
                 <tr>
-
                     <td>81</td>
                     <td>82</td>
                     <td>83</td>
@@ -374,8 +370,8 @@
                 <button class="btn-yes">Yes</button> <button class="btn-no">No</button>
             </div>
         </div>
-        <div class="card" data-number="34">
-            <p class= "tit" >Is your number here?</p>
+        <div class="card" data-number="34" style="display:none;">
+            <p class="tit">Is your number here?</p>
             <table>
                 <tr>
                     <td>34</td>
@@ -386,7 +382,6 @@
                     <td>39</td>
                 </tr>
                 <tr>
-
                     <td>40</td>
                     <td>41</td>
                     <td>42</td>
@@ -395,7 +390,6 @@
                     <td>45</td>
                 </tr>
                 <tr>
-
                     <td>46</td>
                     <td>47</td>
                     <td>48</td>
@@ -413,8 +407,8 @@
                 <button class="btn-yes">Yes</button> <button class="btn-no">No</button>
             </div>
         </div>
-        <div class="card" data-number="55">
-            <p class= "tit" >Is your number here?</p>
+        <div class="card" data-number="55" style="display:none;">
+            <p class="tit">Is your number here?</p>
             <table>
                 <tr>
                     <td>55</td>
@@ -467,8 +461,8 @@
                 <button class="btn-yes">Yes</button> <button class="btn-no">No</button>
             </div>
         </div>
-        <div class="card" data-number="89">
-            <p class= "tit" >Is your number here?</p>
+        <div class="card" data-number="89" style="display:none;">
+            <p class="tit">Is your number here?</p>
             <table>
                 <tr>
                     <td>89</td>
@@ -479,7 +473,6 @@
                     <td>94</td>
                 </tr>
                 <tr>
-
                     <td>95</td>
                     <td>96</td>
                     <td>97</td>
@@ -494,15 +487,13 @@
 
         </div>
     </div>
-
     <div class="buttons">
         <button id="btn-result">🪄 Your Number</button>
-        <button id="refresh-btn">Reset</button>
+        <button id="refresh-btn" type="button" autocomplete="off">Reset</button>
         <p id="result"></p>
     </div>
-    
 
-    <script defer src="./main.js"></script>
+
 </body>
 
 </html>
