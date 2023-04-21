@@ -128,13 +128,12 @@ body {
     text-align: center;
 }
 
-/* Style for the main heading */
-h1 {
-    font-family: 'Henny Penny', cursive;
-    font-size: 3rem;
-    margin: 0;
-    color: #5ddcff;
-    /* Font shadow */
+
+/* Style for the slogan */
+.slogan {
+    font-family: 'Fondamento', cursive;
+    font-size: 2.3rem;
+    color: #6AB9D9;
     text-shadow: 0px 0px 90px rgba(121, 242, 242, 0.8), 0px 0px 30px rgba(121, 242, 242, 0.6), 0px 0px 40px rgba(121, 242, 242, 0.4), 0px 0px 50px rgba(121, 242, 242, 0.2);
     /* Font stroke */
     -webkit-text-stroke: 0.2px #343333;
@@ -142,13 +141,6 @@ h1 {
     text-stroke: 0.1px #343333;
     /* Font relief */
     text-outline: 0.1px #343333;
-}
-
-/* Style for the slogan */
-.slogan {
-    font-family: 'Fondamento', cursive;
-    font-size: 1.5rem;
-    color: #6AB9D9;
 }
 
 /* Style for the container that holds the cards */
