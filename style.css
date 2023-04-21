@@ -180,7 +180,7 @@ table td {
 .btn-yes, .btn-no {
     border: none;
     width: 100px;
-    margin: 2px;
+    margin: 0 50px;
     background-color: #5ddcff;
     color: #0f2d40;
     font-size: 1.3rem;
@@ -197,7 +197,7 @@ table td {
     position: absolute;
     bottom: 0;
     width: 100%;
-    padding: 10px;
+    padding: 10px ;
 }
 
 #btn-result {
@@ -235,9 +235,4 @@ table td {
     justify-content: center;
 }
 
-.magic {
-    font-size: 4rem;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
+
