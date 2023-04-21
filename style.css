@@ -19,6 +19,7 @@ body {
     padding-top: 2rem;
     padding-bottom: 2rem;
     box-sizing: border-box;
+    color: white;
 }
 
 .card {
@@ -34,7 +35,7 @@ body {
     display: flex;
     flex-direction: column;
     font-size: 2.5em;
-    color: rgba(1, 1, 1, 0);
+    /*color: rgba(1, 1, 1, 0); */
     cursor: pointer;
     font-family: 'cabin';
     transition: color 1s;
@@ -175,13 +176,12 @@ table {
 
 table td {
     padding: 9px;
-
 }
 
 .btn-yes, .btn-no {
     border: none;
     width: 100px;
-    margin: 2px;
+    margin: 0 50px;
     background-color: #5ddcff;
     color: #0f2d40;
     font-size: 1.3rem;
@@ -198,7 +198,7 @@ table td {
     position: absolute;
     bottom: 0;
     width: 100%;
-    padding: 10px;
+    padding: 10px ;
 }
 
 #btn-result {
@@ -235,10 +235,10 @@ table td {
     text-align: center;
     justify-content: center;
 }
-
 .magic {
     font-size: 4rem;
     text-align: center;
     display: flex;
     justify-content: center;
 }
+

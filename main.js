@@ -5,7 +5,6 @@ const btnResult = document.querySelector('#btn-result');
 const refreshBtn = document.getElementById('refresh-btn');
 const result = document.querySelector('#result');
 
-
 let sum = 0;
 
 for (let i = 1; i < cards.length; i++) {
@@ -14,6 +13,11 @@ for (let i = 1; i < cards.length; i++) {
 
 function addNumber(number) {
     sum += number;
+    if (sum > 100) {
+        alert('Sorry, the number you selected cannot be greater than 100. Please choose a number between 1 and 100. Press Reset 👈️ to start again.');
+        sum -= number;
+        return;
+    }
     const currentCard = this.closest('.card');
     currentCard.style.display = 'none';
     const nextCard = currentCard.nextElementSibling;
@@ -23,7 +27,6 @@ function addNumber(number) {
         checkCards();
     }
 }
-
 window.onload = function() {
     cards[0].style.display = 'block';
     }

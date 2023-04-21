@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
@@ -22,7 +22,68 @@
     <script src="scripts.js?v=12345"></script>
     <script defer src="./main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+    <style>
+        @media only screen and (min-width: 320px) and (max-width: 767px) {
+            :root {
+                display: flex;
+                justify-content: center;
+                --card-height: 50vh;
+                --card-width: calc(var(--card-height) / 1.5);  
+            }
 
+            h1 {
+                font-size: 1.7rem;
+            }
+
+            .slogan {
+                font-size: 1rem;
+            }
+
+            .card {
+                font-size: 1.7em;
+            }
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 1023px) {
+            :root {
+                display: flex;
+                justify-content: center;
+                --card-height: 65vh;
+                --card-width: calc(var(--card-height) / 1.5);
+            }
+
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .slogan {
+                font-size: 1.25rem;
+            }
+
+            .card {
+                font-size: 2.5em;
+            }
+        }
+
+        @media only screen and (min-width: 1024px) and (max-width: 2080px) {
+            :root {
+                --card-height: 80vh;
+                --card-width: calc(var(--card-height) / 1.5);
+            }
+
+            h1 {
+                font-size: 3rem;
+            }
+
+            .slogan {
+                font-size: 1.5rem;
+            }
+
+            .card {
+                font-size: 3.3em;
+            }
+        }
+    </style>
 
     <title>Card Mind Reader</title>
     <meta name="description" content="We read your mind, every time.">
