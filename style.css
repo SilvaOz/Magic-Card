@@ -19,6 +19,7 @@ body {
     padding-top: 2rem;
     padding-bottom: 2rem;
     box-sizing: border-box;
+    color: white;
 }
 
 .card {
@@ -174,7 +175,6 @@ table {
 
 table td {
     padding: 9px;
-    color: white;
 }
 
 .btn-yes, .btn-no {
