@@ -34,7 +34,7 @@ body {
     display: flex;
     flex-direction: column;
     font-size: 2.5em;
-    color: rgba(1, 1, 1, 0);
+    /*color: rgba(1, 1, 1, 0); */
     cursor: pointer;
     font-family: 'cabin';
     transition: color 1s;
