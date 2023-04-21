@@ -171,6 +171,7 @@ h1 {
 
 table {
     position: relative;
+    margin: 0 auto;
 }
 
 table td {
@@ -234,5 +235,10 @@ table td {
     text-align: center;
     justify-content: center;
 }
-
+.magic {
+    font-size: 4rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
 
