@@ -71,8 +71,16 @@ btnNo.forEach(button => {
 
 // Function to show the result
 function showResult() {
-    result.textContent = `Ah, I sense that the number you are thinking of is... ... is it...  ${sum}`;
+    result.textContent = `¡Ah! I sense that the number you are thinking of is...`;
+    setTimeout(() => {
+        result.textContent = `¿ is...${sum} ?`;
+        result.classList.add("result--highlight");
+    }, 2000);
 }
+
+// function showResult() {
+//     result.textContent = `Ah, I sense that the number you are thinking of is... ... is it...  ${sum}`;
+// }
 
 // Adding click event to the "See result" button
 btnResult.addEventListener('click', showResult);

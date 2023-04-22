@@ -216,10 +216,11 @@ table td {
 
 /* Style for the result text */
 #result {
-    margin: 20px auto;
-    font-size: 24px;
-    color: #79F2F2;
-    display: flex;
-    text-align: center;
-    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.result--highlight {
+    font-size: 4em;
+    color: #5ddcff;
+    text-shadow: 0px 0px 10px rgba(0, 255, 0, 0.5);
 }
