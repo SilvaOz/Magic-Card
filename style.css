@@ -191,15 +191,12 @@ table td {
 
 /* Style for the Result button */
 #btn-result {
+    color: #191c29;
     margin: 10px auto;
     background-color: #79f2f2;
     display: none;
 }
 
-button img {
-    width: 100px;
-    margin-right: 10px;
-}
 
 /* Style for the Refresh button */
 #refresh-btn {

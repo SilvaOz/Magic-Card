@@ -131,6 +131,8 @@ function showResult() {
             }, 200);
         }
     }, 50);
+    // Ocultar el botón "btnResult"
+    btnResult.style.display = 'none';
 }
 
 // Adding click event to the "See result" button
