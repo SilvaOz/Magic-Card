@@ -130,11 +130,42 @@ body {
     text-align: center;
 }
 
+.triangular-logo {
+    position: relative;
+    /* para permitir el posicionamiento absoluto dentro */
+    width: 200px;
+    /* ajusta el ancho a tu gusto */
+    height: 200px;
+    /* ajusta la altura a tu gusto */
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+    /* crea la forma triangular */
+}
+
+.triangular-logo img {
+    /* ajusta la imagen */
+    position: absolute;
+    /* para poder ajustar la posición con top, bottom, left, right */
+    top: 50%;
+    /* ajusta la posición verticalmente */
+    left: 50%;
+    /* ajusta la posición horizontalmente */
+    transform: translate(-50%, -50%) rotate(0deg);
+    /* ajusta la rotación y centrado */
+    background-position: center;
+    background-size: cover;
+}
+
+.triangular-logo img {
+    /* ajusta el tamaño del logo */
+    max-width: 100%;
+    max-height: 100%;
+}
 
 /* Style for the slogan */
 .slogan {
+    margin-top: 2px;
     font-family: 'Fondamento', cursive;
-    font-size: 2.3rem;
+    font-size: 1.7rem;
     color: #6AB9D9;
     text-shadow: 0px 0px 90px rgba(121, 242, 242, 0.8), 0px 0px 30px rgba(121, 242, 242, 0.6), 0px 0px 40px rgba(121, 242, 242, 0.4), 0px 0px 50px rgba(121, 242, 242, 0.2);
     /* Font stroke */
@@ -315,7 +346,8 @@ table td {
     }
 
     .slogan {
-        font-size: 2.3rem;
+        font-size: 1.6rem;
+        margin-top: 2px;
     }
 
     .card {
