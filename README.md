@@ -48,6 +48,9 @@ Magic Mind Reader was created by Oscar Silva as a project for the DCI Career Ins
 
 - [Oscar Silva](https://github.com/SilvaOz)
 
+Inspired by 
+- [Gayane Gasparyan](https://codepen.io/gayane-gasparyan)
+
 ## License
 
 Magic Mind Reader is released under the [MIT License](https://github.com/SilvaOz/Magic-Card/blob/master/LICENSE).
