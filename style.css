@@ -360,6 +360,6 @@ table td {
     }
 
     .triangular-logo {
-        display: none;
+        display: block;
     }
 }
