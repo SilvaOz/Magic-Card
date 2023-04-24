@@ -133,9 +133,6 @@ function showResult() {
     }, 50);
 }
 
-
-
-
 // Adding click event to the "See result" button
 btnResult.addEventListener('click', showResult);
 
