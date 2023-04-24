@@ -336,7 +336,7 @@ table td {
     }
 
     .slogan {
-        font-size: 1.6rem;
+        font-size: 2rem;
         margin-top: 2px;
     }
 
@@ -349,7 +349,7 @@ table td {
         display: none;
     }
 
-    .triangular-logo {
+    /* .triangular-logo {
         display: block;
-    }
+    } */
 }
