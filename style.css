@@ -132,33 +132,23 @@ body {
 
 .triangular-logo {
     position: relative;
-    /* para permitir el posicionamiento absoluto dentro */
-    width: 200px;
-    /* ajusta el ancho a tu gusto */
-    height: 200px;
-    /* ajusta la altura a tu gusto */
-    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
-    /* crea la forma triangular */
+    width: 150px;
+    height: 120px;
+    clip-path: polygon(50% 0%, 100% 0%, 50% 100%, 0% 100%);
+    transform: rotate(30deg);
+    /* Ajusta la rotación a 30 grados */
+    
+
 }
 
 .triangular-logo img {
-    /* ajusta la imagen */
+    width: 15vw;
+    height: 18vh;;
     position: absolute;
-    /* para poder ajustar la posición con top, bottom, left, right */
-    top: 50%;
-    /* ajusta la posición verticalmente */
-    left: 50%;
-    /* ajusta la posición horizontalmente */
-    transform: translate(-50%, -50%) rotate(0deg);
-    /* ajusta la rotación y centrado */
-    background-position: center;
-    background-size: cover;
-}
-
-.triangular-logo img {
-    /* ajusta el tamaño del logo */
-    max-width: 100%;
-    max-height: 100%;
+    top: 30%;
+    left: 45%;
+    transform: translate(-50%, -50%) rotate(130deg);
+    /* Ajusta la rotación de la imagen en sentido contrario */
 }
 
 /* Style for the slogan */
