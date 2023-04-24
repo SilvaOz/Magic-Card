@@ -247,9 +247,9 @@ button img {
     animation-duration: 2.5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    background-image: url('./src/cardr1.jpeg');
+    /* background-image: url('./src/cardr1.jpeg');
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
 }
 
 /* Styles for the card element pseudo-elements */
