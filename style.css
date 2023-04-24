@@ -47,7 +47,7 @@ body {
     animation-duration: 2.5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    
+
 }
 
 /* Styles for the card element when it is hovered */
@@ -59,7 +59,7 @@ body {
 .card:hover:before,
 .card:hover:after {
     opacity: 0;
-    
+
 }
 
 /* Styles for the card element pseudo-elements */
@@ -321,5 +321,9 @@ table td {
     .card {
         font-size: 1.3em;
         color: #5ddcff;
+    }
+
+    #btn-result {
+        display: none;
     }
 }
